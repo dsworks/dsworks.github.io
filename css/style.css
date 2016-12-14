@@ -68,10 +68,10 @@ img {
 /* HEADER */
 
 .logo {
-	width: 56px;
-	height: 56px;
+	width: 80px;
+	height: 80px;
 	float: left;
-	background: url(../img/logo-mobile.png) center center/56px no-repeat;
+	background: url(../img/logo-mobile.png) center center/80px no-repeat;
 	font-size: 0;
 }
 
