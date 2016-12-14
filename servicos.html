@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>NodeProp - Especializada em Soluções Digitais</title>
+	<meta name="description" content="Âgencia especializada em Marketing Digital e desenvolvimento de sistemas web" />
+	<meta name="keywords" content="Agência Digital, Marketing, Sites" />
+	<meta name="robots" content="index, follow" />
+	<meta name="author" content="David Simões" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css' />
+	<link rel="icon" href="img/icon.png" /> </head>
+
+<body>
+	<!-- CABEÇALHO -->
+	<header class="cabecalho container">
+		<a href="index.html">
+			<h1 class="logo">NodeProp - Especializada em Soluções Digitais</h1> </a>
+		<button class="bg-gradient btn-menu"> <i class="fa fa-bars fa-lg"></i> </button>
+		<nav class="menu">
+			<a class="btn-close"><i class="fa fa-times"></i></a>
+			<ul>
+				<li> <a href="#">Home</a> </li>
+				<li> <a href="#">Clientes</a> </li>
+				<li> <a href="#">Serviços</a> </li>
+				<li> <a href="#">Blog</a> </li>
+				<li> <a href="#">Quem Somos</a> </li>
+				<li> <a href="#">Contato</a> </li>
+			</ul>
+		</nav>
+	</header>
+
+	<!--BANNER-->
+	<div class="container banner">
+		<div class="title">
+			<h2>Ouse Inovar!</h2>
+			<h3>Criamos experiências e estabelecemos ações estratégicas que conectam marcas e consumidores.</h3>
+		</div>
+
+		<div class="buttons">
+			<button class="btn btn-cadastrar bg-white radius"> Cadastrar <i class="fa fa-arrow-circle-right"></i></button>
+			<button class="btn bg-black btn-sobre radius"> Sobre <i class="fa fa-question-circle"></i> </button>
+		</div>
+	</div>
+
+	<!-- MAIN DE SERVIÇOS-->
+	<main class="container servicos">
+		<!--ARTIGO 01-->
+		<article class="servico bg-white radius">
+			<a href="#"><img src="img/criacoes.jpg" alt="Campanhas Publicitárias"></a>
+			<div class="inner">
+				<a href="#"> Campanhas Publicitárias </a>
+				<h4>Impressos, VTs e Jinlges</h4>
+				<p>
+					Se você está precisando de criação de algum material em específico, conte com a nossa equipe de profissionais. Eles farão toda a campanha publicitária. Vt,outdoor,folder,anúncio e muito mais pela sua empresa, no mais alto padrão de qualidade.
+				</p>
+			</div>
+		</article>
+
+		<!--ARTIGO 02-->
+		<article class="servico bg-white radius">
+			<a href="#"><img src="img/md.jpg" alt="Marketing Digital"></a>
+			<div class="inner">
+				<a href="#"> Marketing Digital </a>
+				<h4>Administração de Redes Sociais</h4>
+				<p>
+					Como agência de publicidade, aplicamos estratégias nos meios digitais para que o sue negócio seja visto por milhões de usuários.O brasil é o 5° país mais conectado no mundo. Por este motivo, o seu negócio não pode ficar fora do mercado digital.
+				</p>
+			</div>
+		</article>
+
+		<!--ARTIGO 03-->
+		<article class="servico bg-white radius">
+			<a href="#"><img src="img/cs.jpg" alt="Criação de Soluções Web"></a>
+			<div class="inner">
+				<a href="#"> Criação de Soluções Web </a>
+				<h4> Soluções para seus problemas! </h4>
+				<p>
+					Nossa agência se preocupa muito com a real necessidade de nossos clientes, e é por isso que não criamos sites, nós criamos verdadeiras soluções, para todos os seu problemas. Faça um briefing com a gente!
+				</p>
+			</div>
+		</article>
+	</main>
+
+	<!--NEWSLETTER-->
+	<section class="container newsletter bg-black">
+		<h2>Inscreva-se agora!</h2>
+		<h3>Receba novidades, dicas e muito mais!</h3>
+		<form action="">
+			<input class="bg-black radius" type="email" name="email" placeholder="Digite seu e-mail" />
+			<button class="bg-white radius"> Cadastrar </button>
+		</form>
+	</section>
+
+	<!--RODAPÉ-->
+	<footer class="container bg-gradient rodape">
+		<div class="social-icons">
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-google"></i></a>
+			<a href="#"><i class="fa fa-instagram"></i></a>
+			<a href="#"><i class="fa fa-envelope"></i></a>
+		</div>
+
+		<p class="copy">
+			Copyright &copy; NodeProp 2016. Todos os direitos reservados.
+		</p>
+	</footer>
+
+	<!--JQUERY-->
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".btn-menu").click(function () {
+				$(".menu").show();
+			});
+			$(".btn-close").click(function () {
+				$(".menu").hide();
+			});
+		});
+	</script>
+</body>
+
+</html>
